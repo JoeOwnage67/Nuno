@@ -1,0 +1,352 @@
+<Defs>
+<RecipeDef Name="SurgeryMedAmbroisen" ParentName="SurgeryFlesh" Abstract="True">
+<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+<recipeUsers>
+<li>Human</li>
+</recipeUsers>
+<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+</RecipeDef>
+<RecipeDef ParentName="SurgeryMedAmbroisen">
+<defName>InstallAmbroisenMedHand</defName>
+<label>install Ambroisen hand</label>
+<description>Installs Ambroisen hand.</description>
+<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+<jobString>Installing Ambroisen hand.</jobString>
+<workAmount>350</workAmount>
+<ingredients>
+<li>
+<filter>
+<categories>
+<li>Medicine</li>
+</categories>
+</filter>
+<count>1</count>
+</li>
+<li>
+<filter>
+<thingDefs>
+<li>AmbroisenMedHand</li>
+</thingDefs>
+</filter>
+<count>1</count>
+</li>
+</ingredients>
+<fixedIngredientFilter>
+<categories>
+<li>Medicine</li>
+</categories>
+<thingDefs>
+<li>AmbroisenMedHand</li>
+</thingDefs>
+</fixedIngredientFilter>
+<appliedOnFixedBodyParts>
+<li>Hand</li>
+</appliedOnFixedBodyParts>
+<addsHediff>AmbroisenMedHand</addsHediff>
+</RecipeDef>
+<RecipeDef ParentName="SurgeryMedAmbroisen">
+<defName>InstallAmbroisenMedArm</defName>
+<label>install Ambroisen arm</label>
+<description>Installs Ambroisen arm.</description>
+<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+<jobString>Installing Ambroisen arm.</jobString>
+<workAmount>350</workAmount>
+<ingredients>
+<li>
+<filter>
+<categories>
+<li>Medicine</li>
+</categories>
+</filter>
+<count>1</count>
+</li>
+<li>
+<filter>
+<thingDefs>
+<li>AmbroisenMedArm</li>
+</thingDefs>
+</filter>
+<count>1</count>
+</li>
+</ingredients>
+<fixedIngredientFilter>
+<categories>
+<li>Medicine</li>
+</categories>
+<thingDefs>
+<li>AmbroisenMedArm</li>
+</thingDefs>
+</fixedIngredientFilter>
+<appliedOnFixedBodyParts>
+<li>Shoulder</li>
+</appliedOnFixedBodyParts>
+<addsHediff>AmbroisenMedArm</addsHediff>
+</RecipeDef>
+<RecipeDef ParentName="SurgeryMedAmbroisen">
+<defName>InstallAmbroisenMedLeg</defName>
+<label>install Ambroisen leg</label>
+<description>Installs Ambroisen leg.</description>
+<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+<jobString>Installing Ambroisen leg.</jobString>
+<workAmount>350</workAmount>
+<ingredients>
+<li>
+<filter>
+<categories>
+<li>Medicine</li>
+</categories>
+</filter>
+<count>1</count>
+</li>
+<li>
+<filter>
+<thingDefs>
+<li>AmbroisenMedLeg</li>
+</thingDefs>
+</filter>
+<count>1</count>
+</li>
+</ingredients>
+<fixedIngredientFilter>
+<categories>
+<li>Medicine</li>
+</categories>
+<thingDefs>
+<li>AmbroisenMedLeg</li>
+</thingDefs>
+</fixedIngredientFilter>
+<appliedOnFixedBodyParts>
+<li>Leg</li>
+</appliedOnFixedBodyParts>
+<addsHediff>AmbroisenMedLeg</addsHediff>
+</RecipeDef>
+<RecipeDef ParentName="SurgeryMedAmbroisen">
+<defName>InstallAmbroisenMedFoot</defName>
+<label>install Ambroisen foot</label>
+<description>Installs Ambroisen foot.</description>
+<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+<jobString>Installing Ambroisen foot.</jobString>
+<workAmount>350</workAmount>
+<ingredients>
+<li>
+<filter>
+<categories>
+<li>Medicine</li>
+</categories>
+</filter>
+<count>1</count>
+</li>
+<li>
+<filter>
+<thingDefs>
+<li>AmbroisenMedFoot</li>
+</thingDefs>
+</filter>
+<count>1</count>
+</li>
+</ingredients>
+<fixedIngredientFilter>
+<categories>
+<li>Medicine</li>
+</categories>
+<thingDefs>
+<li>AmbroisenMedFoot</li>
+</thingDefs>
+</fixedIngredientFilter>
+<appliedOnFixedBodyParts>
+<li>Foot</li>
+</appliedOnFixedBodyParts>
+<addsHediff>AmbroisenMedFoot</addsHediff>
+</RecipeDef>
+<RecipeDef ParentName="SurgeryMedAmbroisen">
+<defName>InstallAmbroisenMedFinger</defName>
+<label>install Ambroisen finger</label>
+<description>Installs Ambroisen finger.</description>
+<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+<jobString>Installing Ambroisen finger.</jobString>
+<workAmount>350</workAmount>
+<ingredients>
+<li>
+<filter>
+<categories>
+<li>Medicine</li>
+</categories>
+</filter>
+<count>1</count>
+</li>
+<li>
+<filter>
+<thingDefs>
+<li>AmbroisenMedFinger</li>
+</thingDefs>
+</filter>
+<count>1</count>
+</li>
+</ingredients>
+<fixedIngredientFilter>
+<categories>
+<li>Medicine</li>
+</categories>
+<thingDefs>
+<li>AmbroisenMedFinger</li>
+</thingDefs>
+</fixedIngredientFilter>
+<appliedOnFixedBodyParts>
+<li>Finger</li>
+</appliedOnFixedBodyParts>
+<addsHediff>AmbroisenMedFinger</addsHediff>
+</RecipeDef>
+<RecipeDef ParentName="SurgeryMedAmbroisen">
+<defName>InstallAmbroisenMedToe</defName>
+<label>install Ambroisen toe</label>
+<description>Installs Ambroisen toe.</description>
+<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+<jobString>Installing Ambroisen toe.</jobString>
+<workAmount>350</workAmount>
+<ingredients>
+<li>
+<filter>
+<categories>
+<li>Medicine</li>
+</categories>
+</filter>
+<count>1</count>
+</li>
+<li>
+<filter>
+<thingDefs>
+<li>AmbroisenMedToe</li>
+</thingDefs>
+</filter>
+<count>1</count>
+</li>
+</ingredients>
+<fixedIngredientFilter>
+<categories>
+<li>Medicine</li>
+</categories>
+<thingDefs>
+<li>AmbroisenMedToe</li>
+</thingDefs>
+</fixedIngredientFilter>
+<appliedOnFixedBodyParts>
+<li>Toe</li>
+</appliedOnFixedBodyParts>
+<addsHediff>AmbroisenMedToe</addsHediff>
+</RecipeDef>
+<RecipeDef ParentName="SurgeryMedAmbroisen">
+<defName>InstallAmbroisenMedNose</defName>
+<label>install Ambroisen nose</label>
+<description>Installs Ambroisen nose.</description>
+<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+<jobString>Installing Ambroisen nose.</jobString>
+<workAmount>350</workAmount>
+<ingredients>
+<li>
+<filter>
+<categories>
+<li>Medicine</li>
+</categories>
+</filter>
+<count>1</count>
+</li>
+<li>
+<filter>
+<thingDefs>
+<li>AmbroisenMedNose</li>
+</thingDefs>
+</filter>
+<count>1</count>
+</li>
+</ingredients>
+<fixedIngredientFilter>
+<categories>
+<li>Medicine</li>
+</categories>
+<thingDefs>
+<li>AmbroisenMedNose</li>
+</thingDefs>
+</fixedIngredientFilter>
+<appliedOnFixedBodyParts>
+<li>Nose</li>
+</appliedOnFixedBodyParts>
+<addsHediff>AmbroisenMedNose</addsHediff>
+</RecipeDef>
+<RecipeDef ParentName="SurgeryMedAmbroisen">
+<defName>InstallAmbroisenMedEye</defName>
+<label>install Ambroisen eye</label>
+<description>Installs Ambroisen eye.</description>
+<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+<jobString>Installing Ambroisen eye.</jobString>
+<workAmount>350</workAmount>
+<ingredients>
+<li>
+<filter>
+<categories>
+<li>Medicine</li>
+</categories>
+</filter>
+<count>1</count>
+</li>
+<li>
+<filter>
+<thingDefs>
+<li>AmbroisenMedEye</li>
+</thingDefs>
+</filter>
+<count>1</count>
+</li>
+</ingredients>
+<fixedIngredientFilter>
+<categories>
+<li>Medicine</li>
+</categories>
+<thingDefs>
+<li>AmbroisenMedEye</li>
+</thingDefs>
+</fixedIngredientFilter>
+<appliedOnFixedBodyParts>
+<li>Eye</li>
+</appliedOnFixedBodyParts>
+<addsHediff>AmbroisenMedEye</addsHediff>
+</RecipeDef>
+<RecipeDef ParentName="SurgeryMedAmbroisen">
+<defName>InstallAmbroisenMedEar</defName>
+<label>install Ambroisen ear</label>
+<description>Installs Ambroisen ear.</description>
+<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+<jobString>Installing Ambroisen ear.</jobString>
+<workAmount>350</workAmount>
+<ingredients>
+<li>
+<filter>
+<categories>
+<li>Medicine</li>
+</categories>
+</filter>
+<count>1</count>
+</li>
+<li>
+<filter>
+<thingDefs>
+<li>AmbroisenMedEar</li>
+</thingDefs>
+</filter>
+<count>1</count>
+</li>
+</ingredients>
+<fixedIngredientFilter>
+<categories>
+<li>Medicine</li>
+</categories>
+<thingDefs>
+<li>AmbroisenMedEar</li>
+</thingDefs>
+</fixedIngredientFilter>
+<appliedOnFixedBodyParts>
+<li>Ear</li>
+</appliedOnFixedBodyParts>
+<addsHediff>AmbroisenMedEar</addsHediff>
+</RecipeDef>
+</Defs>
